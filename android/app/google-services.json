@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "489229196362",
+    "project_id": "avca-b39db",
+    "storage_bucket": "avca-b39db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489229196362:android:e0f233664a9b63f1a99ab3",
+        "android_client_info": {
+          "package_name": "com.avca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489229196362-bburmorvs607j53sct0t0dmjt77p5sl2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYpxBBAvRVbMQajfq_t9Gr6McieOpzzWA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489229196362-bburmorvs607j53sct0t0dmjt77p5sl2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
