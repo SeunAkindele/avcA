@@ -27,23 +27,23 @@ public class MainActivity extends ReactActivity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
 
-    FirebaseMessaging.getInstance().getToken()
-    .addOnCompleteListener(new OnCompleteListener<String>() {
-      @Override
-      public void onComplete(@NonNull Task<String> task) {
-        if (!task.isSuccessful()) {
-          System.out.println("Fetching FCM registration token failed");
-          return;
-        }
-
-        // Get new FCM registration token
-        String token = task.getResult();
-
-        // Log and toast
-        System.out.println("token is "+token);
-//        Toast.makeText(MainActivity.this, "Your device registration token is " + token, Toast.LENGTH_SHORT).show();
-      }
-    });
+//    FirebaseMessaging.getInstance().getToken()
+//    .addOnCompleteListener(new OnCompleteListener<String>() {
+//      @Override
+//      public void onComplete(@NonNull Task<String> task) {
+//        if (!task.isSuccessful()) {
+//          System.out.println("Fetching FCM registration token failed");
+//          return;
+//        }
+//
+//        // Get new FCM registration token
+//        String token = task.getResult();
+//
+//        // Log and toast
+//        System.out.println("token is "+token);
+////        Toast.makeText(MainActivity.this, "Your device registration token is " + token, Toast.LENGTH_SHORT).show();
+//      }
+//    });
   }
   /**
    * Returns the name of the main component registered from JavaScript. This is used to schedule

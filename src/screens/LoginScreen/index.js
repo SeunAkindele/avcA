@@ -80,7 +80,7 @@ const LoginScreen = () => {
     };
 
     const tokenSignin = async () => {
-        console.log("auto");
+        console.log("push notification login");
         
         try {            
             const username = await AsyncStorage.getItem('username');
